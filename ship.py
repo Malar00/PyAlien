@@ -6,7 +6,7 @@ class Ship():
         self.screen = screen
         self.game_settings = game_settings
 
-        self.image = pygame.image.load('/run/media/malar/Data/Github/PyGameAlien/Spaceship_01_BLUE.bmp')
+        self.image = pygame.image.load('/run/media/malar/Data/Github/PyAlien/Spaceship_01_BLUE.bmp')
         self.image = pygame.transform.scale(self.image, (100, 100))
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
